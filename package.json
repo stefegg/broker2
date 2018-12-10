@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "fat",
   "main": "server.js",
+  "bin": {
+    "broker": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "stef",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^6.1.2"
+  }
 }
